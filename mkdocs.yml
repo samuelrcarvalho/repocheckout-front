@@ -1,0 +1,8 @@
+site_name: "front"
+site_description: "checkout repository"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "front"
+  description: "checkout repository"
+  links:
+    - url: https://front-brasilbolsabalcao.empcbr.thoughtworks-labs.net
+      title: front
+      icon: dashboard
+  annotations:
+    circleci.com/project-slug: github/platform-dx/repocheckout-front
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug:  platform-dx/repocheckout-front
+    sonarqube.org/project-key: "front"
+    backstage.io/kubernetes-label-selector: "app=front"
+    backstage.io/adr-location: docs/adrs/
+
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "platform-dx"
